@@ -73,6 +73,15 @@ header a {
   position: relative;
 }
 
+.special {
+    background-color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+
 .product > img {
   max-width: 97%;
 }
