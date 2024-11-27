@@ -102,8 +102,9 @@ main {
   color: #ff0000;
 }
 
+/* PRODUCT IMG */
 .product > img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .main-img {
@@ -112,16 +113,17 @@ main {
 
 .hidden-img {
   display: none;
-  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
 }
 
 .product:hover .hidden-img {
   display: block;
   z-index: 1;
+}
+
+.product:hover .main-img {
+  display: none;
 }
 
 .price {
